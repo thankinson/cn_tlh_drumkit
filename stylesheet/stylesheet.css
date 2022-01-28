@@ -14,9 +14,9 @@ p{
     font-size: 20px;
     font-weight: 100;
 }
-div{
+/* div{
     border: black solid 1px;
-}
+} */
 body{
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.486);
@@ -63,6 +63,7 @@ body{
     height: 15vh;
     width: 98vw;
     border-radius: 20px;
+    background-color: rgb(34, 34, 34);
     box-shadow: dimgray 1px 1px 10px 1px;
     }
         .drum{
@@ -73,6 +74,10 @@ body{
             align-items: center;
             width: 10vw;
             height: 10vh;
+            border: gray solid 5px;
+            border-radius: 3px;
+            background-color: dimgray;
+            box-shadow: rgb(31, 30, 30) 1px 1px 10px 1px;
         }
 /* ################################################ */
 #drumkit-div{
@@ -103,7 +108,7 @@ body{
                 height: 81%;
                 border-radius: 10px;
                 border: gray solid 10px;
-                
+                box-shadow: rgb(87, 84, 84) 2px 2px 20px 2px;
                 background-color: black;
             }
 
