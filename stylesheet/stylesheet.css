@@ -3,6 +3,7 @@
 /* global */
 h1, h2{
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(163, 157, 157);
 }
 
 h5{
@@ -13,22 +14,23 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 100;
+    color: white;
 }
 /* div{
     border: black solid 1px;
 } */
 body{
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.486);
+    background-color: rgba(53, 52, 52, 0.486);
 
     
 }
-/* body{
+body{
     background-image: url(/images/istockphoto-1145602814-612x612.jpg);
     background-repeat: no-repeat;
     background-size: 100vw;
     
-} */
+}
 * {
     box-sizing : border-box;
     -moz-box-sizing : border-box;
@@ -48,12 +50,20 @@ body{
     width: 100%;
 }
 /* ################################################ */
+#space-div{
+    height: 5vh;
+}
 #tital-div{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15vh;
-    width: 100vw;
+    height: 10vh;
+    width: 98vw;
+    background-color: rgb(34, 34, 34);
+    
+    box-shadow: dimgray 1px 1px 1px 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 /* ################################################ */
 #keys-div{
@@ -62,9 +72,11 @@ body{
     align-items: center;
     height: 15vh;
     width: 98vw;
-    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     background-color: rgb(34, 34, 34);
-    box-shadow: dimgray 1px 1px 10px 1px;
+    
+    box-shadow: dimgray 1px 1px 0px 1px;
     }
         .drum{
             display: flex;
@@ -75,6 +87,7 @@ body{
             width: 10vw;
             height: 10vh;
             border: gray solid 5px;
+            /* border: black solid 1px; */
             border-radius: 3px;
             background-color: dimgray;
             box-shadow: rgb(31, 30, 30) 1px 1px 10px 1px;
@@ -96,6 +109,7 @@ body{
         height: 45vh;
         width: 98vw;
         border-radius: 20px;
+        border: black solid 1px;
         background-color: rgb(34, 34, 34);
         box-shadow: dimgray 1px 1px 10px 1px;
         }
