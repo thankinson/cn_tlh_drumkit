@@ -165,26 +165,26 @@ body{
 /* ################################################################ */
 /* MEADI */
 
-@media all and (max-width: 700px) {
-    .event-efect{
+/* @media all and (max-width: 700px) {
+    div{
         height: 80px ;
         
     }
     
 }
 @media all and (max-width: 900px) {
-    .event-efect{
+    div{
         height: 80px ;
     }
     
 }
 @media all and (max-width: 1000px) {
-    .event-efect{
+    div{
         height: 80px ;
     }
     
 }
-
+ */
 
 /* ################################################################ */
 /* ################################################################ */
